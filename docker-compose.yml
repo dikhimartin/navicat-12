@@ -1,0 +1,11 @@
+version: '3'
+services:
+  navicat:
+    image: navicat
+    container_name: navicat
+    build: .
+    volumes:
+      - ${HOME}/Documents:/home/wine/Documents
+    network_mode: host
+    environment:
+      - "DISPLAY=${DISPLAY:-:0}"

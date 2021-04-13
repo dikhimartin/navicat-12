@@ -1,0 +1,9 @@
+/*
+!/.gitignore
+!/Dockerfile
+!/docker-compose.yml
+!/navicat
+!/navicat.desktop
+!/navicat.tar.xz
+!/icon.png
+!/README.md
